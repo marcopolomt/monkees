@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Quicksand&display=swap');
+
+
+/*-----------------colours--------------*/
+
+.bg-color-name-title {
+    background-color: #f50717
+}
+
+.bg-color-timeline {
+    background-color: white;
+}
+
+.ui-menu-color-home {
+    background-color: #f50717;
+    font-color: #f7f302;
+}
+
+.ui-menu-color-gallery {
+    background-color: #f7f302;
+    font-color: #f50717;
+    ;
+}
+
+/*-----------------special paddings/margins/text--------------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+.row-table {
+    display: table;
+}
+    
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+/*-----------------heading--------------*/
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px
+}
+
+.logo {
+    background: url("../images/cover2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+.name {
+    font-family: "Chewy", comic-sans ms;
+    font-weight: 100;
+    font-size: 70px;
+    margin-top: 20px;
+    color: #f7f302;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem1,
+.menuitem2 {
+    height: 70px;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.menuitem1 a {
+    width: 100%;
+    text-decoration: none;
+    color: #f7f302;
+    height: 70px;
+}
+
+.menuitem2 a {
+    width: 100%;
+    text-decoration: none;
+    color: #f50717;
+    height: 70px;
+}
+
+.menuitem1 span,
+.menuitem2 span {
+    display: block;
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/*-----------------hover.css--------------*/
+
+.hvr-glow:hover {
+    background: rgba(0, 10, 10, 0.2);
+    height: 70px;
+}
+
+/*-----------------footer--------------*/
+
+footer {
+    background-color: #f7f302;
+    color: black;
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 10px;
+    text-align: center;
+    color: #f50717;
+    background: #f7f302;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}   
+
+.social-links li a i:hover {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.2s;
+    transition-property: transform;
+}
+
+.social-links li a i:hover,
+.social-links li a i:focus,
+.social-links li a i:active {
+    transform: scale(1.3);
+}
+
+#footer-details {
+    padding: 20px;
+}
