@@ -7,8 +7,17 @@
     background-color: #f50717
 }
 
+.bg-color-sidebar {
+    background-color: #fff;
+    
+}
+
 .bg-color-timeline {
     background-color: white;
+}
+
+.bg-color-contact {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -30,6 +39,9 @@ h3,
 h4 {
     margin: 0;
 }
+h5 {
+    margin-left: 5px
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -44,7 +56,24 @@ h4 {
 .row-table {
     display: table;
 }
-    
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.row-table {
+    display: table;
+}
+
 .section-column {
     display: table-cell;
     padding: 0 30px 30px;
@@ -72,7 +101,7 @@ header {
     background: url("../images/cover2.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:200;
     min-height: 200px;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
@@ -138,6 +167,8 @@ header {
     letter-spacing: 2px;
 }
 
+
+
 /*-----------------hover.css--------------*/
 
 .hvr-glow:hover {
@@ -172,7 +203,7 @@ footer {
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
-}   
+}
 
 .social-links li a i:hover {
     display: inline-block;
@@ -194,3 +225,124 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+/*-----------------contact form--------------*/
+
+.contact-heading {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #f7f302;
+    background-color: #f50717;
+}
+
+.btn:hover {
+    background-color: #f7f302;
+    color: #f50717;
+
+    /*-----------------gallery--------------*/
+
+/*
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+*/
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+   /*-----------------music and video--------------*/
+
+.musicbox {
+    margin: 10%;
+    Padding: 30%;
+    max-width: 70%;
+}
+
+.youtube {
+    margin: 10%;
+    Padding: 30%;
+    max-width: 70%;
+}
+
+    /*-----------------media queries--------------*/
+    @media(min-width: 992px) {
+        .center-form {
+            padding-top: 20px;
+            min-height: 240px;
+            margin: 0 auto;
+            max-width: 50%;
+        }
