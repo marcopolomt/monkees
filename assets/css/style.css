@@ -100,6 +100,7 @@ h5 {
 img {
     padding: 10px;
 }
+
 .musicbox {
     padding: 20px;
 }
@@ -349,13 +350,3 @@ button[type="submit"] {
             margin-bottom: 25px;
             margin-top: 20px;
         }
-        
-    background: url(../assets/images/monkees.jpg);
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 0;   
-}
