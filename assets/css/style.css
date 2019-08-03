@@ -7,9 +7,9 @@
     background-color: #f50717
 }
 
-.bg-color-sidebar {
+.home-main-content {
     background-color: #fff;
-    
+
 }
 
 .bg-color-timeline {
@@ -28,17 +28,22 @@
 .ui-menu-color-gallery {
     background-color: #f7f302;
     font-color: #f50717;
-    ;
 }
+
+.side-content {
+    background-color: #f7f302;
+
+}
+
 
 /*-----------------special paddings/margins/text--------------*/
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
     margin: 0;
 }
+
 h5 {
     margin-left: 5px
 }
@@ -51,6 +56,7 @@ h5 {
     font-family: "Quicksand", sans-serif;
     font-weight: 300;
     color: black;
+    margin-left: 50px;
 }
 
 .row-table {
@@ -85,6 +91,22 @@ h5 {
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.main-heading {
+    margin-top: 10px;
+}
+
+img {
+    padding: 10px;
+}
+.musicbox {
+    padding: 20px;
+}
+
+.youtube {
+    padding: 20px;
+
 }
 
 /*-----------------heading--------------*/
@@ -101,8 +123,8 @@ header {
     background: url("../images/cover2.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:200;
-    min-height: 200px;
+    background-size: 200;
+    min-height: 175px;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
@@ -252,91 +274,66 @@ button[type="submit"] {
     background-color: #f7f302;
     color: #f50717;
 
-    /*-----------------gallery--------------*/
 
-/*
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
+    div.gallery {
+        border: 1px solid #ccc;
+    }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-*/
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
 
-div.gallery {
-  border: 1px solid #ccc;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
+    .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+    }
 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
+    @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+    }
 
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+    @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+    }
 
-* {
-  box-sizing: border-box;
-}
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
+    /*-----------------music and video--------------*/
+    .musicbox {
+        margin: 10%;
+        Padding: 30%;
+        max-width: 70%;
+    }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-   /*-----------------music and video--------------*/
-
-.musicbox {
-    margin: 10%;
-    Padding: 30%;
-    max-width: 70%;
-}
-
-.youtube {
-    margin: 10%;
-    Padding: 30%;
-    max-width: 70%;
-}
+    .youtube {
+        margin: 10%;
+        Padding: 30%;
+        max-width: 70%;
+    }
 
     /*-----------------media queries--------------*/
     @media(min-width: 992px) {
@@ -346,3 +343,19 @@ div.desc {
             margin: 0 auto;
             max-width: 50%;
         }
+
+        /*-----------------sidebar--------------*/
+        .main-heading uppercase {
+            margin-bottom: 25px;
+            margin-top: 20px;
+        }
+        
+    background: url(../assets/images/monkees.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 0;   
+}
